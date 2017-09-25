@@ -1,0 +1,3 @@
+[submodule "portal-inf/portal"]
+	path = portal
+	url = git://github.com/pedlop/shared.git

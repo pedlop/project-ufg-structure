@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ToastService } from '../../../../portal';
 
 @Component({
   selector: 'inf-pesquisa',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PesquisaComponent implements OnInit {
 
-  constructor() { }
+  constructor(private testToast: ToastService) { }
 
   ngOnInit() {
+    this.testToast.sucesso('Funciona', 'Doido');
   }
 
 }

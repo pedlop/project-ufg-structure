@@ -19,12 +19,13 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "inf",
       "styles": [
-        "styles.scss",
         "../node_modules/bootstrap/dist/css/bootstrap.min.css",
+        "../node_modules/toastr/toastr.scss",
         "../node_modules/font-awesome/css/font-awesome.css",
-        "../node_modules/toastr/toastr.scss"
+        "styles.scss"
       ],
       "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
         "../node_modules/toastr/toastr.js"  
       ],
       "environmentSource": "environments/environment.ts",
