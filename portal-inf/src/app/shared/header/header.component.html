@@ -1,3 +1,25 @@
-<p>
-  header works!
-</p>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" routerLink="/" routerLinkActive="active">
+    <img src="http://www.inf.ufg.br/sites/default/files/marca-inf.png">
+  </a>
+  <h3>Portal da Transparência</h3>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/ensino" routerLinkActive="active">Ensino</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/extensao" routerLinkActive="active">Extensão</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/gestao" routerLinkActive="active">Gestão</a>
+      </li>      
+      <li class="nav-item">
+        <a class="nav-link" routerLink="/pesquisa/geral" routerLinkActive="active">Pesquisa</a>
+      </li>   
+    </ul>
+  </div>
+</nav>
