@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ExtensaoComponent } from './extensao/extensao.component';
+import { ExtensaoComponent } from './geral/extensao.component';
 import { ExtensaoRoutingModule } from './extensao-routing.module';
 import { ExtensaoService } from './shared/extensao.service';
 
 @NgModule({
-  declarations: [ExtensaoComponent],  
+  declarations: [ExtensaoComponent],
   imports: [
     CommonModule,
     ExtensaoRoutingModule

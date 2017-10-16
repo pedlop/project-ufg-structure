@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { EnsinoComponent } from './ensino/ensino.component';
+import { EnsinoComponent } from './geral/ensino.component';
 import { EnsinoRoutingModule } from './ensino-routing.module';
 import { EnsinoService } from './shared/ensino.service';
 
